@@ -1,0 +1,174 @@
+{
+  "stations": {
+    "北京南": {
+      "code": "北京南",
+      "name": "北京南站",
+      "city": "北京",
+      "latitude": 39.86583333,
+      "longitude": 116.37638889,
+      "source": "https://en.wikipedia.org/?curid=15906209",
+      "aliases": [
+        "Beijing South"
+      ]
+    },
+    "上海虹桥": {
+      "code": "上海虹桥",
+      "name": "上海虹桥站",
+      "city": "上海",
+      "latitude": 31.19630556,
+      "longitude": 121.31613889,
+      "source": "https://en.wikipedia.org/?curid=25518344",
+      "aliases": [
+        "Shanghai Hongqiao"
+      ]
+    },
+    "上海": {
+      "code": "上海",
+      "name": "上海站",
+      "city": "上海",
+      "latitude": 31.251552,
+      "longitude": 121.450446,
+      "source": "https://en.wikipedia.org/?curid=2437616",
+      "aliases": [
+        "Shanghai"
+      ]
+    },
+    "苏州": {
+      "code": "苏州",
+      "name": "苏州站",
+      "city": "苏州",
+      "latitude": 31.33165556,
+      "longitude": 120.60650278,
+      "source": "https://zh.wikipedia.org/?curid=672768",
+      "aliases": [
+        "Suzhou"
+      ]
+    },
+    "青岛北": {
+      "code": "青岛北",
+      "name": "青岛北站",
+      "city": "青岛",
+      "latitude": 36.16916667,
+      "longitude": 120.37166667,
+      "source": "https://en.wikipedia.org/?curid=32258932",
+      "aliases": [
+        "Qingdao North"
+      ]
+    },
+    "常熟": {
+      "code": "常熟",
+      "name": "常熟站",
+      "city": "常熟",
+      "latitude": 31.699187,
+      "longitude": 120.776065,
+      "source": "https://zh.wikipedia.org/?curid=7063240",
+      "aliases": [
+        "Changshu"
+      ]
+    }
+  },
+  "journeys": [
+    {
+      "id": 1,
+      "date": "2025-03-15",
+      "year": 2025,
+      "trainNumber": "G101",
+      "serviceType": "G",
+      "origin": "北京南",
+      "destination": "上海虹桥",
+      "departureTime": "08:00",
+      "arrivalTime": "13:30",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 330,
+      "serviceOrigin": "北京南",
+      "serviceDestination": "上海虹桥",
+      "seat": "0508A",
+      "distanceKm": 1062
+    },
+    {
+      "id": 2,
+      "date": "2025-07-20",
+      "year": 2025,
+      "trainNumber": "G7020",
+      "serviceType": "G",
+      "origin": "上海",
+      "destination": "苏州",
+      "departureTime": "09:00",
+      "arrivalTime": "09:30",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 30,
+      "serviceOrigin": null,
+      "serviceDestination": null,
+      "seat": "0312F",
+      "distanceKm": 81
+    },
+    {
+      "id": 3,
+      "date": "2025-07-20",
+      "year": 2025,
+      "trainNumber": "G7021",
+      "serviceType": "G",
+      "origin": "苏州",
+      "destination": "上海",
+      "departureTime": "18:30",
+      "arrivalTime": "19:00",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 30,
+      "serviceOrigin": null,
+      "serviceDestination": null,
+      "seat": "0210C",
+      "distanceKm": 81
+    },
+    {
+      "id": 4,
+      "date": "2026-02-10",
+      "year": 2026,
+      "trainNumber": "D200",
+      "serviceType": "D",
+      "origin": "上海",
+      "destination": "青岛北",
+      "departureTime": "08:30",
+      "arrivalTime": "14:00",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 330,
+      "serviceOrigin": null,
+      "serviceDestination": null,
+      "seat": "0607D",
+      "distanceKm": 560
+    },
+    {
+      "id": 5,
+      "date": "2026-05-01",
+      "year": 2026,
+      "trainNumber": "C100",
+      "serviceType": "C",
+      "origin": "上海",
+      "destination": "常熟",
+      "departureTime": "10:00",
+      "arrivalTime": "11:00",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 60,
+      "serviceOrigin": null,
+      "serviceDestination": null,
+      "seat": "0403A",
+      "distanceKm": 81
+    },
+    {
+      "id": 6,
+      "date": "2026-05-03",
+      "year": 2026,
+      "trainNumber": "C101",
+      "serviceType": "C",
+      "origin": "常熟",
+      "destination": "上海",
+      "departureTime": "16:00",
+      "arrivalTime": "17:00",
+      "arrivalDayOffset": 0,
+      "durationMinutes": 60,
+      "serviceOrigin": null,
+      "serviceDestination": null,
+      "seat": "0403F",
+      "distanceKm": 81
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "铁路足迹导入数据格式",
+  "description": "支持行程记录数组，或包含行程数组与可选车站坐标的对象。导入器同时兼容中文表头。",
+  "oneOf": [
+    {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/journey"
+      }
+    },
+    {
+      "type": "object",
+      "required": [
+        "journeys"
+      ],
+      "properties": {
+        "journeys": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/journey"
+          }
+        },
+        "stations": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/station"
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "journey": {
+      "type": "object",
+      "required": [
+        "date",
+        "origin",
+        "destination"
+      ],
+      "properties": {
+        "date": {
+          "type": [
+            "string",
+            "number"
+          ],
+          "description": "乘车日期：年月日、标准日期字符串或电子表格日期序号。"
+        },
+        "trainNumber": {
+          "type": "string",
+          "description": "车次，例如 G24。"
+        },
+        "origin": {
+          "type": "string",
+          "description": "上车站。"
+        },
+        "destination": {
+          "type": "string",
+          "description": "下车站。"
+        },
+        "departureTime": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ],
+          "description": "上车时间，例如 1700 或 17:00。"
+        },
+        "arrivalTime": {
+          "type": [
+            "string",
+            "number",
+            "null"
+          ],
+          "description": "下车时间。"
+        },
+        "arrivalDayOffset": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 30,
+          "description": "跨天数，取值为 0 至 30。"
+        },
+        "serviceOrigin": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "列车全程的始发站。"
+        },
+        "serviceDestination": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "列车全程的终到站。"
+        },
+        "seat": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "原始座位记录，包括无座。"
+        }
+      }
+    },
+    "station": {
+      "type": "object",
+      "required": [
+        "name",
+        "city",
+        "latitude",
+        "longitude"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "车站名称。"
+        },
+        "city": {
+          "type": "string",
+          "description": "所属城市。"
+        },
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90,
+          "description": "纬度，使用世界大地坐标系。"
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "description": "经度，使用世界大地坐标系。"
+        },
+        "source": {
+          "type": "string",
+          "description": "车站坐标来源链接。"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "车站别名，可用于兼容旧数据中的英文站名。"
+        }
+      }
+    }
+  }
+}

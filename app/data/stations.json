@@ -1,0 +1,200 @@
+{
+  "上海虹桥": {
+    "code": "上海虹桥",
+    "name": "上海虹桥站",
+    "city": "上海",
+    "latitude": 31.19630556,
+    "longitude": 121.31613889,
+    "source": "https://en.wikipedia.org/?curid=25518344",
+    "aliases": [
+      "Shanghai Hongqiao"
+    ]
+  },
+  "北京南": {
+    "code": "北京南",
+    "name": "北京南站",
+    "city": "北京",
+    "latitude": 39.86583333,
+    "longitude": 116.37638889,
+    "source": "https://en.wikipedia.org/?curid=15906209",
+    "aliases": [
+      "Beijing South"
+    ]
+  },
+  "上海": {
+    "code": "上海",
+    "name": "上海站",
+    "city": "上海",
+    "latitude": 31.251552,
+    "longitude": 121.450446,
+    "source": "https://en.wikipedia.org/?curid=2437616",
+    "aliases": [
+      "Shanghai"
+    ]
+  },
+  "镇江南": {
+    "code": "镇江南",
+    "name": "镇江南站",
+    "city": "镇江",
+    "latitude": 32.15426,
+    "longitude": 119.419316,
+    "source": "https://en.wikipedia.org/?curid=26328092",
+    "aliases": [
+      "Zhenjiang South"
+    ]
+  },
+  "苏州北": {
+    "code": "苏州北",
+    "name": "苏州北站",
+    "city": "苏州",
+    "latitude": 31.423646,
+    "longitude": 120.639045,
+    "source": "https://en.wikipedia.org/?curid=26328098",
+    "aliases": [
+      "Suzhou North"
+    ]
+  },
+  "镇江": {
+    "code": "镇江",
+    "name": "镇江站",
+    "city": "镇江",
+    "latitude": 32.19916667,
+    "longitude": 119.42694444,
+    "source": "https://en.wikipedia.org/?curid=26539539",
+    "aliases": [
+      "Zhenjiang"
+    ]
+  },
+  "香港西九龙": {
+    "code": "香港西九龙",
+    "name": "香港西九龙站",
+    "city": "香港",
+    "latitude": 22.30361111,
+    "longitude": 114.165,
+    "source": "https://en.wikipedia.org/?curid=20082618",
+    "aliases": [
+      "Hong Kong West Kowloon"
+    ]
+  },
+  "福田": {
+    "code": "福田",
+    "name": "福田站",
+    "city": "深圳",
+    "latitude": 22.53833333,
+    "longitude": 114.05666667,
+    "source": "https://en.wikipedia.org/?curid=33121290",
+    "aliases": [
+      "Futian"
+    ]
+  },
+  "苏州": {
+    "code": "苏州",
+    "name": "苏州站",
+    "city": "苏州",
+    "latitude": 31.33165556,
+    "longitude": 120.60650278,
+    "source": "https://zh.wikipedia.org/?curid=672768",
+    "aliases": [
+      "Suzhou"
+    ]
+  },
+  "无锡": {
+    "code": "无锡",
+    "name": "无锡站",
+    "city": "无锡",
+    "latitude": 31.58915,
+    "longitude": 120.30254722,
+    "source": "https://zh.wikipedia.org/?curid=1015898",
+    "aliases": [
+      "Wuxi"
+    ]
+  },
+  "昆山南": {
+    "code": "昆山南",
+    "name": "昆山南站",
+    "city": "昆山",
+    "latitude": 31.355,
+    "longitude": 120.94638889,
+    "source": "https://en.wikipedia.org/?curid=26328099",
+    "aliases": [
+      "Kunshan South"
+    ]
+  },
+  "常熟": {
+    "code": "常熟",
+    "name": "常熟站",
+    "city": "常熟",
+    "latitude": 31.699187,
+    "longitude": 120.776065,
+    "source": "https://zh.wikipedia.org/?curid=7063240",
+    "aliases": [
+      "Changshu"
+    ]
+  },
+  "青岛北": {
+    "code": "青岛北",
+    "name": "青岛北站",
+    "city": "青岛",
+    "latitude": 36.16916667,
+    "longitude": 120.37166667,
+    "source": "https://en.wikipedia.org/?curid=32258932",
+    "aliases": [
+      "Qingdao North"
+    ]
+  },
+  "青岛": {
+    "code": "青岛",
+    "name": "青岛站",
+    "city": "青岛",
+    "latitude": 36.06416667,
+    "longitude": 120.3075,
+    "source": "https://en.wikipedia.org/?curid=18656433",
+    "aliases": [
+      "Qingdao"
+    ]
+  },
+  "上海南": {
+    "code": "上海南",
+    "name": "上海南站",
+    "city": "上海",
+    "latitude": 31.154425,
+    "longitude": 121.42416,
+    "source": "https://en.wikipedia.org/?curid=2437641",
+    "aliases": [
+      "Shanghai South"
+    ]
+  },
+  "千岛湖": {
+    "code": "千岛湖",
+    "name": "千岛湖站",
+    "city": "淳安",
+    "latitude": 29.73805556,
+    "longitude": 119.18722222,
+    "source": "https://en.wikipedia.org/?curid=67194541",
+    "aliases": [
+      "Qiandaohu"
+    ]
+  },
+  "扬州东": {
+    "code": "扬州东",
+    "name": "扬州东站",
+    "city": "扬州",
+    "latitude": 32.40708,
+    "longitude": 119.522674,
+    "source": "https://en.wikipedia.org/?curid=67368305",
+    "aliases": [
+      "Yangzhou East"
+    ]
+  },
+  "南昌西": {
+    "code": "南昌西",
+    "name": "南昌西站",
+    "city": "南昌",
+    "latitude": 28.62611111,
+    "longitude": 115.78777778,
+    "source": "https://en.wikipedia.org/?curid=26539197",
+    "aliases": [
+      "Nanchang West"
+    ]
+  }
+}
